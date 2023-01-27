@@ -198,6 +198,13 @@ nav {
   background-color: rgb(251, 167, 251);
 }
 
+.signup a {
+  color: black;
+}
+.signup a:hover {
+  color: white;
+}
+
 /* Full-width input fields */
 .form-container input[type=text], .form-container input[type=password] {
   width: 80%;

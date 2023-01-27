@@ -202,6 +202,15 @@ nav{
     padding: 10px;
     background-color: $main-color;
 }
+
+.signup{
+    a{
+        color:black;
+    }
+    a:hover{
+        color:white;
+    }
+}
   
   /* Full-width input fields */
 .form-container input[type=text], .form-container input[type=password] {

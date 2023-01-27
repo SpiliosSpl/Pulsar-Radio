@@ -304,9 +304,4 @@ nav {
     z-index: 9;
     color: black;
   }
-}
-.nav-links a:nth-of-type(2) {
-  -webkit-text-decoration: underline solid 2px rgb(251, 167, 251);
-          text-decoration: underline solid 2px rgb(251, 167, 251);
-  text-underline-offset: 4px;
-}/*# sourceMappingURL=blog.css.map */
+}/*# sourceMappingURL=signup.css.map */
