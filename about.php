@@ -23,7 +23,7 @@
     <?php include("pages/nav.html") ?>
     <main id="main">
         <div class="logo">
-            <a href="index.html"><img src="logo/Pulsar-removebg.png" alt="Pulsar Radio logo"></a>
+            <a href="index.php"><img src="logo/Pulsar-removebg.png" alt="Pulsar Radio logo"></a>
         </div>
         <section id="avatar-section">
             <div class="description">
@@ -32,6 +32,80 @@
                     diverse taste and unlimited passion for music. 
                 </p>
             </div>
+
+            <div class="avatars">
+                <div class="row">
+                    <div class="tile">
+                        <img src="https://api.dicebear.com/5.x/pixel-art/svg?clothingColor=FBA7FB" rel="Avatar of team member">
+                        <h3 class="Name">George Patsakos</h3>
+                        <div class="overlay">
+                            <div class="text">
+                                <h3 class="Name_mobile">George Patsakos</h3><hr class="mobile_hr">
+                                <h4>Sound Engineer</h4><hr>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tile">
+                        <img src="https://api.dicebear.com/5.x/pixel-art/svg?clothingColor=FBA7FB" rel="Avatar of team member">
+                        <h3 class="Name">Makis Sarados</h3>
+                        <div class="overlay">
+                            <div class="text">
+                                <h3 class="Name_mobile">Makis Sarados</h3><hr class="mobile_hr">
+                                <h4>Software Engineer</h4><hr>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tile">
+                        <img src="https://api.dicebear.com/5.x/pixel-art/svg?flip=false&beardProbability=0&clothingColor=FBA7FB&eyes=variant12&eyesColor=876658&hair=short22&mouth=happy11&mouthColor=c98276&skinColor=eac393" rel="Avatar of team member">
+                        <h3 class="Name">Spilios Spiliopoulos</h3>
+                        <div class="overlay">
+                            <div class="text">
+                                <h3 class="Name_mobile">Spilios Spiliopoulos</h3><hr class="mobile_hr">
+                                <h4>Web Developer</h4><hr>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tile">
+                        <img src="https://api.dicebear.com/5.x/pixel-art/svg?clothingColor=FBA7FB" rel="Avatar of team member">
+                        <h3 class="Name">George Mavromatis</h3>
+                        <div class="overlay">
+                            <div class="text">
+                                <h3 class="Name_mobile">George Mavromatis</h3><hr class="mobile_hr">
+                                <h4>Web Developer</h4><hr>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+                <div class="row">
+                    <div class="tile">
+                    <img src="https://api.dicebear.com/5.x/pixel-art/svg?clothingColor=FBA7FB" rel="Avatar of team member">
+                        <h3 class="Name">Athanasios Koutras</h3>
+                        <div class="overlay">
+                            <div class="text">
+                                <h3 class="Name_mobile">Athanasios Koutras</h3><hr class="mobile_hr">
+                                <h4>Assosiate Professor</h4><hr>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--
             <div id="avatars">
                 <div class="row">
                     <div class="column">
@@ -101,16 +175,13 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> 
+-->
             <div class="invitation">
-                <h3>You too are passionate about music?<br><br>
+                <h3>Are you passionate about music?<br><br>
                 <a href="contact.html">Join</a> the Team!</h3>
             </div>
         </section>
-        <div class="social">
-            <a href="https://www.facebook.com/" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a> 
-            <a href="https://www.instagram.com/" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a> 
-        </div>
     </main>
     <?php include("pages/footer.html") ?>      
 </body>

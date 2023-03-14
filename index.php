@@ -44,11 +44,6 @@
         <div id="player">
             <h1>- Player -</h1>
         </div>
-        
-        <div class="social">
-            <a href="https://www.facebook.com/" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a> 
-            <a href="https://www.instagram.com/" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a> 
-        </div>
     </main>
     <?php include("pages/footer.html") ?>
 </body>

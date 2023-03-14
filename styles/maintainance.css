@@ -1,0 +1,50 @@
+/*rgb(251, 167, 251); 
+rgba(0, 0, 0, 0.6);*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    background-color: black;
+    color: rgb(251, 167, 251);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+main{
+    width: 100%;
+    text-align: center;
+}
+
+img{
+    width: 250px;
+}
+
+h2{
+    margin-top: 15vh;
+}
+
+h3 a{
+    color: white;
+}
+
+p i{
+    font-size: 1.3rem;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
