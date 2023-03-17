@@ -19,16 +19,15 @@ main {
 
 @media screen and (min-width: 951px) {
   main {
-    margin-top: 110px;
+    margin-top: 90px;
   }
 }
 .logo {
-  margin-top: 0.5rem;
   padding: 0;
   margin-bottom: 0;
 }
 .logo img {
-  width: clamp(20rem, 20vw, 22rem);
+  width: 250px;
   height: auto;
 }
 
@@ -80,7 +79,7 @@ nav {
   padding: 0;
 }
 .left a img {
-  width: 100px;
+  width: 80px;
 }
 
 /*mobile - responsive*/
@@ -100,7 +99,7 @@ nav {
     overflow-x: hidden;
     position: fixed;
     width: 0px;
-    left: -1px;
+    left: -2px;
     top: 0px;
     border-right: 2px solid rgb(251, 167, 251);
     transition: 0.5s ease;
@@ -123,7 +122,7 @@ nav {
     width: 2rem;
   }
   .left a img {
-    width: 150px;
+    width: 120px;
   }
   .middle {
     display: flex;
@@ -304,5 +303,9 @@ footer .copyrights {
   }
 }
 #player {
-  margin-top: 15vh;
+  margin-top: 4vh;
+}
+
+*::-webkit-media-controls-panel {
+  background-color: rgb(251, 167, 251) !important;
 }/*# sourceMappingURL=styles_index.css.map */

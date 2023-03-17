@@ -42,7 +42,9 @@
             <a href=""><img src="logo/Pulsar-removebg.png" alt="Pulsar Radio logo"></a>
         </div>
         <div id="player">
-            <h1>- Player -</h1>
+        <video controls autoplay name="media">
+            <source src="http://62.217.73.168:41999/pulsar%22%3E">
+        </video>
         </div>
     </main>
     <?php include("pages/footer.html") ?>

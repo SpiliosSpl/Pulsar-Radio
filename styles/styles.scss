@@ -43,16 +43,15 @@ main{
 
 @media screen and (min-width:951px) {
     main{
-        margin-top: 110px;
+        margin-top: 90px;
     }
 }
 
 .logo{
-    margin-top: clamp(0rem, 0.5rem, 2rem);
     padding: 0;
     margin-bottom: 0;
     img{
-        width: clamp(20rem, 20vw, 22rem);
+        width: 250px;
         height: auto;
     }
 }
@@ -109,7 +108,7 @@ nav{
         margin: 0;
         padding: 0;
         img{
-            width:100px;
+            width:80px;
         }
     }
 }
@@ -132,7 +131,7 @@ nav{
         overflow-x: hidden;
         position: fixed;
         width: 0px;
-        left: -1px;
+        left: -2px;
         top: 0px;
         border-right: 2px solid $main-color;
         transition: .5s ease;
@@ -160,7 +159,7 @@ nav{
     .left{
         a{
             img{
-                width:150px;
+                width:120px;
             }
         }
     }

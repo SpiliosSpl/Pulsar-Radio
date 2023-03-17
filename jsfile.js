@@ -15,22 +15,6 @@ function menu() {
   }
 }
 
-//check for clicks when the menu is opened
-/*document.addEventListener("click", (evt) => {
-  const menu = document.querySelector(".nav-container");
-  let clicked = evt.target; // clicked element      
-  do {
-    if(clicked == menu) {
-      //click inside
-      return;
-    }
-    // Go up the DOM
-    clicked = clicked.parentNode;
-  } while (clicked);      
-  clearView();//click outside.
-})*/
-
-
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
@@ -47,4 +31,26 @@ function scrollFunction() {
 function topScroll() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
+}
+
+function popup(){
+  document.getElementById('background').style.display='block';
+}
+
+function close_popup(){
+  document.getElementById('background').style.display='none';
+}
+
+function show_pass(x,y){
+  var pass=document.getElementById(x);
+  var icon=document.getElementById(y);
+
+  if (pass.type=="password"){
+    pass.type="text";
+    icon.style.color="white";
+  }
+  else{
+    pass.type="password";
+    icon.style.color="rgb(251, 167, 251)";
+  }
 }

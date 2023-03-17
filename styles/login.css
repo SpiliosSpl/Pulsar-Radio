@@ -301,4 +301,247 @@ footer .copyrights {
     width: 180px;
     height: auto;
   }
-}/*# sourceMappingURL=blog.css.map */
+}
+.logo img {
+  width: 200px;
+  height: auto;
+}
+
+.form-section {
+  background-color: rgb(18, 18, 18);
+  width: 400px;
+  margin: 0;
+  border: 2px solid rgb(251, 167, 251);
+  padding: 20px 0;
+  border-radius: 1px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.form-section h2 {
+  margin: 0;
+}
+.form-section p {
+  margin-top: 5px;
+}
+.form-section p a {
+  color: rgb(251, 167, 251);
+}
+.form-section p a:hover {
+  color: white;
+}
+
+.form_item {
+  margin: 15px;
+}
+
+.btn {
+  outline: none;
+  cursor: pointer;
+  padding: 11px 13px 10px 13px;
+  border: 2px solid rgb(251, 167, 251);
+  box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.6);
+  font-size: 1.1rem;
+  text-align: center;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5); /* Black see-through */
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  color: rgb(251, 167, 251);
+  transition: background-color 0.3s ease-out, color 0.2s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+  background: rgb(251, 167, 251);
+  opacity: 0.9;
+  color: black;
+  border-color: black;
+  box-shadow: 3px 10px 2px rgba(0, 0, 0, 0.6);
+}
+
+.field {
+  height: 30px;
+  width: 50%;
+  background-color: rgb(25, 25, 25);
+  border: 0.5px solid rgba(255, 255, 255, 0.4);
+  outline: none;
+  border-radius: 1px;
+  color: rgb(251, 167, 251);
+  padding: 3px;
+  font-size: 1rem;
+  transition: 0.3s ease;
+}
+
+.field:focus {
+  border-color: rgb(251, 167, 251);
+  width: 52%;
+}
+
+.label-icon {
+  margin-right: 7px;
+}
+
+.password-item {
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.password-item-signup {
+  position: relative;
+}
+
+.show_pass {
+  position: absolute;
+  right: 83px;
+  top: 7px;
+}
+.show_pass a {
+  color: rgb(251, 167, 251);
+}
+.show_pass a:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.show_pass_signup {
+  position: absolute;
+  right: 120px;
+  top: 7px;
+}
+.show_pass_signup a {
+  color: rgb(251, 167, 251);
+}
+.show_pass_signup a:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.pass-recovery {
+  margin-top: 1px;
+  margin-bottom: 25px;
+}
+.pass-recovery a {
+  margin: 0;
+  color: rgb(251, 167, 251);
+  font-size: 0.8rem;
+}
+.pass-recovery a:hover {
+  color: white;
+}
+
+.signup-section {
+  z-index: 9;
+  background-color: rgb(18, 18, 18);
+  width: 500px;
+  margin: 0;
+  border: 2px solid rgb(251, 167, 251);
+  padding: 30px 0;
+  border-radius: 1px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.signup-section h2 {
+  margin: 0;
+}
+.signup-section .close-btn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 1.4rem;
+  color: rgb(251, 167, 251);
+  transition: 0.1s ease;
+}
+.signup-section .close-btn:hover {
+  opacity: 0.7;
+}
+.signup-section ::-moz-placeholder {
+  color: rgb(251, 167, 251);
+  opacity: 0.6;
+}
+.signup-section ::placeholder {
+  color: rgb(251, 167, 251);
+  opacity: 0.6;
+}
+.signup-section :-ms-input-placeholder {
+  color: rgb(251, 167, 251);
+}
+.signup-section ::-ms-input-placeholder {
+  color: rgb(251, 167, 251);
+}
+
+.signup-background {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 9;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (max-width: 950px) {
+  main {
+    height: 90vh;
+  }
+  .form-section {
+    width: 280px;
+    top: auto;
+    left: auto;
+    transform: none;
+    position: relative;
+    margin: 30px auto;
+  }
+  .form-section a {
+    text-underline-offset: 2px;
+  }
+  .logo {
+    margin-top: 1%;
+  }
+  .logo img {
+    width: 180px;
+    height: auto;
+  }
+  .form_item {
+    margin: 20px;
+  }
+  .password-item {
+    margin-bottom: 5px;
+  }
+  .show_pass {
+    right: 39px;
+    top: 6px;
+  }
+  .show_pass_signup {
+    right: 55px;
+    top: 7px;
+  }
+  .pass-recovery {
+    margin-top: 1px;
+    margin-bottom: 25px;
+  }
+  .field {
+    height: 30px;
+    width: 60%;
+  }
+  .field:focus {
+    border-color: rgb(251, 167, 251);
+    width: 62%;
+  }
+  .signup-section {
+    width: 300px;
+    padding: 20px 0;
+  }
+  .signup-section .close-btn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 1.4rem;
+    color: rgb(251, 167, 251);
+    transition: 0.1s ease;
+  }
+}/*# sourceMappingURL=login.css.map */
